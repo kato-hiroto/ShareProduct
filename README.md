@@ -1,2 +1,2 @@
 # ShereProduct
-Free sources and Packages
+公開・共有用リポジトリ。
