@@ -15,7 +15,7 @@
   - 使用する際はAppIDの取得に加え、上記アセットをインポートしてください。
   - さらにResourcesフォルダのオブジェクト『Slide』を図のように設定してください。
 
-  ![SlideInspector](https://github.com/kato-hiroto/ShareProduct/edit/master/SlideSync/Inspector.png)
+  ![SlideInspector](https://raw.githubusercontent.com/kato-hiroto/ShareProduct/master/SlideSync/Inspector.png)
 
   - その他微修正が必要な場合があります。
   
