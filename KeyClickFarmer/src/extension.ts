@@ -200,7 +200,7 @@ class WordCounter {
             Unit:     this._unit,
         };
         let json = JSON.stringify(obj);
-        fs.writeFile(path.resolve(__dirname, './savedata.json'), json, 'utf8', (err : Error) => {
+        fs.writeFile(path.resolve(__dirname, '../../keyclickfarmer-savedata.json'), json, 'utf8', (err : Error) => {
             if (err) {
                 window.showErrorMessage(err.message);
                 console.log(err);
@@ -210,7 +210,7 @@ class WordCounter {
 
     public load() {
         try {
-            let config = JSON.parse(fs.readFileSync(path.resolve(__dirname, './savedata.json'), 'utf8'));
+            let config = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../keyclickfarmer-savedata.json'), 'utf8'));
             this._keyCount  = config.keyCount;
             this._pt        = config.Point;
             this._allpt     = config.allPoint;
@@ -219,7 +219,7 @@ class WordCounter {
             this._unit      = config.Unit;
         } catch (e){
             console.log(e);
-            console.log(">>Make savedata.\n");
+            console.log(">> Make savedata.\n");
             this.save();
 		}
 		this.showStatus();
