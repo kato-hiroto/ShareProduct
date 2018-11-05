@@ -1,5 +1,5 @@
 # KeyCount Farmer
-Thanks to install my extention!
+Thanks to install my extension!
 
 ## Description
 This is the game of using key-typing counts.  
